@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Slack User Password Reset Notification
+Plugin Name: User Password Reset Notifications for Slack
 Plugin URI: http://code.andrewrminion.com/slack-user-password-reset/
 Description: Adds Slack notifications and disables admin email notifications when users lose and reset their passwords
 Version: 1.0
