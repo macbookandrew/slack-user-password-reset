@@ -12,24 +12,24 @@ Send notifications to Slack channels whenever a user loses and resets their pass
 
 ## Description ##
 
-This plugin is an extension to [Slack plugin](http://wordpress.org/plugins/slack) that allows you to send notifications to Slack channels whenever a user loses and resets their password.
+This plugin is an extension to the [Slack plugin](http://wordpress.org/plugins/slack); it allows you to send notifications to Slack channels whenever a user loses and resets their password.
 
-The new event will be shown on integration setting with text **When a user loses and resets their password**. If checked, then a notification will be delivered whenever a user loses and resets their password.
+The new event will be shown in the integration settings labeled **When a user loses and resets their password**. If checked, then a notification will be delivered whenever a user loses and resets their password.
 
 When this plugin is active, the email notifications to the site administrator will be disabled.
 
-You can alter the message with `slack_user_password_reset_message` filter. The filter receives following parameters (ordered by position):
+You can alter the message with `slack_user_password_reset_message` filter. The filter receives the following parameters in this order:
 
-* `$user` &mdash; User object
-* `$new_pass` &mdash; New password string
+* `$user`: the user object
+* `$new_pass`: the new password string
 
-**Development of this plugin is done on [GitHub](https://github.com/macbookandrew/slack-user-password-reset/). Pull requests are always welcome**.
+**Development of this plugin is done on [GitHub](https://github.com/macbookandrew/wp-slack-user-password-reset/). Pull requests are always welcome**.
 
 ## Installation ##
 
 1. You need to install and activate [Slack](http://wordpress.org/plugins/slack) plugins first.
-1. Then upload **Slack User Password Reset** plugin to your blog's `wp-content/plugins/` directory and activate.
-1. You will see new event type with text **When a user loses and resets their password** in integration setting. If checked, then a notification will be delivered when a user loses and resets their password.
+1. Then upload **Slack User Password Reset** plugin to your blog’s `wp-content/plugins/` directory and activate.
+1. You will see the new event type labeled **When a user loses and resets their password** in integration setting. If checked, then a notification will be delivered when a user loses and resets their password.
 
 ## Screenshots ##
 
