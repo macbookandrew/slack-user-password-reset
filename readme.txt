@@ -1,4 +1,4 @@
-=== User Password Reset Notifications for Slack ===
+=== Slack User Password Notifications ===
 Contributors:      macbookandrew
 Donate link:       https://cash.me/$AndrewRMinionDesign
 Tags:              slack, api, chat, notification, user, password, reset
@@ -34,7 +34,7 @@ You can alter the message with `slack_user_password_reset_message` filter. The f
 == Screenshots ==
 
 1. Event option in integration settings
-1. Your channel being notified when a user’s password is reset
+2. Your channel being notified when a user’s password is reset
 
 == Changelog ==
 
